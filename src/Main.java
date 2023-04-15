@@ -5,7 +5,10 @@ public class Main {
                 .addProduct(new Product("water", 10))
                 .addProduct(new Product("wine", 330))
                 .addProduct(new Yogurt("Dannone", 25, "sweet"))
-                .addProduct(new Perfume("Si", 6000, "Armani"));
+                .addProduct(new Perfume("Si", 6000, "Armani"))
+                .addProduct(new Сhocolate("Milka", 87, 100))
+                .addProduct(new Candies("Korovka", 125, "milk"));
+
         System.out.println("Наш список товаров: ");
         for (int i = 0; i < vendingMachine.getList().size(); i++) {
             System.out.println(vendingMachine.getList().get(i));
